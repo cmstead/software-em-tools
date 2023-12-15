@@ -1,0 +1,35 @@
+Growth Reading (Optional)
+
+Junior Developer  
+The Art of Agile Development (Shore)  
+The Art of Doing Science and Engineering: Learning to Learn (Hamming)  
+The Programmer's Brain (Hermans)  
+Testing Javascript Applications (da Costa)  
+Understanding Computation (Stuart)  
+
+Mid-level Developer  
+Test-Driven Development (Beck)  
+Head First Design Patterns (Freeman and Robson)  
+Refactoring (Fowler)  
+Crucial Conversations (Grenny and Patterson)  
+7 Languages in 7 Weeks (Tate)  
+Domain Driven Design Distilled (Vernon)  
+
+Sr. Developer  
+Domain Driven Design (Evans)  
+Refactoring to Patterns (Kerievsky)  
+Working Efectively With Legacy Code (Feathers)  
+Agile Retrospectives (Derby and Larson)  
+Becoming A Technical Leader (Weinberg)  
+
+Staff Developer  
+The Psychology of Computer Programming (Weinberg)  
+Peopleware (DeMarco and Lister)  
+Mythical Man Month (Brooks)  
+Cognitive Load Theory (Moreno and Brunken)  
+
+Sr. Staff/Principle Developer  
+How to Measure Anything (Hubbard)  
+Making Work Visible (DeGrandis)  
+The Secrets of Consulting (Weinberg)  
+Out of the Crisis (Deming)  

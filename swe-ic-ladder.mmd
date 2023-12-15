@@ -1,0 +1,99 @@
+graph TD;
+
+%% Roles
+
+subgraph junior[Junior]
+    j1[Learner]
+    j2[Force Contributor]
+end
+
+subgraph mid[Mid]
+    m1[Force Contributor]
+    m2[Knowledge Carrier]
+end
+
+subgraph senior[Senior]
+    s1[Knowledge Carrier]
+    s2[Force Multiplier]
+end
+
+subgraph staff[Staff]
+    st1[Force Multiplier]
+    st2[Leader]
+end
+
+subgraph staff-plus[Staff+]
+    st-plus1[Leader]
+end
+
+subgraph 2_roles[Roles]
+    junior
+    mid
+    senior
+    staff
+    staff-plus
+end
+
+style 2_roles fill:#FFF
+
+%% Skill Verticals
+
+subgraph 1_learner[Learner]
+    l1[Core Language Proficiency]
+    l2[Ability to solve simple business problems]
+    l3[Open to Guidance]
+end
+
+style 1_learner fill:#DDF
+
+subgraph 2_force-contributor[Force Contributor]
+    fc1[Common Community Practices]
+    fc2[Internal Practices]
+    fc3[Common Libraries]
+    fc4[Expanded Primary Language Proficiency]
+    fc5[Test-first Development]
+    fc6[Automated Testing]
+end
+
+style 2_force-contributor fill:#DFD
+
+subgraph 3_knowledge-carrier[Knowledge Carrier]
+    kc1[TDD/BDD]
+    kc2[Design Patterns]
+    kc3[Common Refactoring Skills]
+    kc4[Task and Code Automation]
+    kc5[Mentorship]
+end
+
+style 3_knowledge-carrier fill:#FDD
+
+subgraph 4_force-multiplier[Force Multiplier]
+    fm1[Domain Driven Design]
+    fm2[Architectural Guidance]
+    fm3[Guiding and Mentoring Mentors]
+    fm4[Legacy Code Management and Remediation]
+    fm5[Epic/Project Scoping]
+end
+
+style 4_force-multiplier fill:#FFD
+
+subgraph 5_leader[Leader]
+    lead1[Guide, Don't Dictate]
+    lead2[Human-led solutions]
+    lead3[Leadership through Expertise]
+    lead4[Spearhead Team/Business Partnership]
+    lead5[Exemplify Values]
+end
+
+style 5_leader fill:#FDF
+
+subgraph 1_skill-Verticals[Skill Verticals]
+    1_learner
+    2_force-contributor
+    3_knowledge-carrier
+    4_force-multiplier
+    5_leader
+end
+
+style 1_skill-Verticals fill:#FFF
+

@@ -1,0 +1,84 @@
+{
+    "Chart": {
+      "prefix": "chart",
+      "body": ["${1|graph,flowChart,sequenceDiagram|}${2: ${3|TD,LR|}};"],
+      "description": "New mermaid chart"
+    },
+    "Mindmap": {
+      "prefix": "mindmap",
+      "body": ["mindmap"],
+      "description": "New mindmap document"
+    }
+    "Subgraph": {
+      "prefix": "subgraph",
+      "body": ["subgraph ${1:name}", "\t${2:nodeNames}", "end"],
+      "description": "New subgraph"
+    },
+    "Unidirectional Link": {
+      "prefix": "unidirectional-link",
+      "body": ["${1|---,-->,--),-.-,-.->,-.-)|}${2:|${3:arrow-text}|}"],
+      "description": "new unidirectional link"
+    },
+    "Bidirectional Link": {
+      "prefix": "bidirectional-link",
+      "body": ["${1|---,<-->,(--),-.-,<-.->,(-.-)|}${2:|${3:arrow-text}|}"],
+      "description": "new bidirectional link"
+    },
+    "Data Flow": {
+      "prefix": "data-flow",
+      "body": ["${1${1|->>, -->>|}"],
+      "description": ""
+    },
+    "Square Node": {
+      "prefix": "square-node",
+      "body": ["${1:nodeName}${2:[$3]}"],
+      "description": "New square node"
+    },
+    "Rounded Node": {
+      "prefix": "rounded-node",
+      "body": ["${1:nodeName}${2:($3)}"],
+      "description": "New rounded node"
+    },
+    "Stadium Node": {
+      "prefix": "stadium-node",
+      "body": ["${1:nodeName}${2:([$3])}"],
+      "description": "New stadium node"
+    },
+    "Circular Node": {
+      "prefix": "circular-node",
+      "body": ["${1:nodeName}${2:(($3))}"],
+      "description": "New circular node"
+    },
+    "Task Completion Diagram": {
+      "prefix": "task-completion",
+      "body": [
+        "graph LR",
+        "Unknown",
+        "style Unknown fill:#faa, stroke-width: 0px",
+        "",
+        "Unknown --- Known",
+        "style Known fill:#fca, stroke-width: 0px",
+        "",
+        "Known --- progress[In Progress]",
+        "style progress fill:#ffa, stroke-width: 0px",
+        "",
+        "progress --- Done",
+        "style Done fill:lightgreen, stroke-width: 0px",
+        "",
+        "title[<strong>${1:Project Title}</strong>]",
+        "style title fill: white, stroke-width: 0px",
+        "",
+        "title --- work(Work to Do)",
+        "style work fill:lightgray, stroke-width: 0px",
+        "",
+        "work --- prerelease(Prerelease Work)",
+        "style prerelease fill:lightgray, stroke-width: 0px",
+        "",
+        "work --- postrelease(Post Release Work)",
+        "style postrelease fill:lightgray, stroke-width: 0px",
+        ""
+      ],
+      "description": ""
+    }
+  }
+  
